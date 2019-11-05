@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        body{
+            background: blue;
+        }
+    </style>
 </head>
 <body>
     <h1>Olá Mundo</h1>
@@ -12,8 +17,9 @@
     <script>
         var num1 = Number.parseInt(prompt('digite um numero?')); //String    
         var num2 = Number.parseInt(prompt('digite um numero?')); //String
-        var result = num1 + num2;
-        alert('o resultado É ' + result); //Concatenação 
+        var num3 = Number(prompt('digite um numero?')); //String
+        var result = num1 + num2 + num3;
+        alert(`A soma entre ${num1} e ${num2} e ${num3} é igual a ${result}`); //Concatenação 
 
 
         //(number + number) para adição
